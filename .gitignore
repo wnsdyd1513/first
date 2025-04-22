@@ -1,7 +1,14 @@
+
 # Eclipse 관련 설정 파일
 /.settings/
 .project
 .classpath
+
+#첨부파일 업로드 샘플파일
+*/notice_upfiles/*
+*/board_upfiles/*
+
+
 
 # 빌드 결과물
 /target/
@@ -9,6 +16,8 @@ bin/
 /build/
 # 로그파일
 *.log
+*/logs/*
+
 # 운영체제별 불필요 파일
 .DS_Store
 Thumbs.db
@@ -17,3 +26,19 @@ Thumbs.db
 
 pom.xml
 *.xml
+
+# Compiled class file
+*.class
+
+
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+
